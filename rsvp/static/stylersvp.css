@@ -1,0 +1,66 @@
+
+
+div#background {
+    margin: 0;
+    padding 0;
+  min-height: 100%;
+  max-width: 100%;
+  position: center;
+  top: 0;
+  z-index: -1;
+}
+img {
+    margin: 0;
+    padding: 0;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, 0);
+  min-height: 100%;
+  min-width: 100%;
+    opacity:0.8;
+
+}
+
+
+
+body{
+    margin:0,auto;
+    padding:0;
+    overflow:scroll;
+}
+
+.centered {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+.centered {
+    color: aliceblue;
+  position: relative;
+  width:20em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 24px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: blueviolet;}
+
+a {
+    font-size: 60px
+    color: red;
+    

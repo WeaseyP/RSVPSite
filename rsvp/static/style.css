@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap');
+
+div#background {
+  margin: 0;
+  padding: 0;
+
+min-height: 100%;
+max-width: 100%;
+position: center;
+top: 0;
+z-index: -1;
+}
+img {
+  margin: 0;
+  padding: 0;
+left: 50%;
+position: fixed;
+transform: translate(-50%, 0);
+min-height: 100%;
+min-width: 100%;
+image-resolution: 100%;
+
+}
+
+
+
+body{
+  margin:0,auto;
+  padding:0;
+  overflow:scroll;
+  color: Blue;
+  
+
+}
+
+.centered {
+position: relative;
+top: 90%;
+left: 60%;
+transform: translate(-50%, 100%);
+}
+
+.centered {
+  color: aliceblue;
+position: relative;
+width:25%;
+top: 85%;
+}
+
+  
+.textcentered {
+  color:  white;
+position: absolute;
+width:25%;
+top: 40%;
+font-family: 'Sacramento', cursive;
+left: 39%;
+text-align: center;
+}
+
+p2{
+  font-size: 3em;
+}
+
+
+p3{
+  text-align: center;
+  font-family: 'Sacramento';
+  color: white;
+  font-size: 50px;
+}
+
+p1{
+  font-size: 30px;
+  font-family: 'Just Another Hand', cursive;
+  text-align: center;
+
+
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: 10em;
+  height: 5em;
+  border: 50px;
+  margin: 0px 0 0px 0px;
+  padding: 3px 0 6px 0;
+  font-family: Arial;
+  background-color: Transparent;
+  color: white;
+
+
+}
+
+/* On mouse-over */
+.btn:hover {background: white;
+color: black;}
+
+.success {
+  color: white;
+}
+
+a {
